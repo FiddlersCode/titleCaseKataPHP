@@ -2,7 +2,7 @@
 by Paula Muldoon 
 
 ### About
-This kata is taken from [CodeWars](http://www.codewars.com/kata/5202ef17a402dd033c000009/train/haskell). I modified the instructions considerably in order to clarify ther requirements.
+This kata is taken from [CodeWars](http://www.codewars.com/kata/5202ef17a402dd033c000009/train/haskell). I modified the instructions considerably in order to clarify the requirements.
 
 ### The Brief
 Write a function that converts a string into title case.  The string may be given in any combination of upper/lower case, eg:
@@ -23,16 +23,19 @@ The function may receive an optional list of exceptions.
 
 ###Arguments
 
-First argument (required): the original string to be converted.
-Second argument (optional): space-delimited list of minor words that must always be lowercase except for the first word in the string. The JavaScript/CoffeeScript tests will pass undefined when this argument is unused.
-
+- First argument (required): the original string to be converted.
+- Second argument (optional): space-delimited list of excepted words that must always be lowercase unless one is the first word in the string. 
 ###Examples
 
 - ("a clash of KINGS", "a an the of") should return "A Clash of Kings"
 - ("THE WIND IN THE WILLOWS", "The In") should return "The Wind in the Willows"
 - ("the quick brown fox") should return "The Quick Brown Fox"
 
-### To run the tests
+### To run
+
+- Run `composer init` and create the `composer.json` file
+- Run `composer install`
+- To run tests: `phpunit tests`
 ```bash
 phpunit tests
 ```

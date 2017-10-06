@@ -1,0 +1,13 @@
+{
+    "name": "paula.muldoon/title-case",
+    "require": {
+        "php": "^7.1",
+        "phpunit/phpunit": "5.7"
+    },
+    "authors": [
+        {
+            "name": "Paula Muldoon",
+            "email": "paula.muldoon@kurtgeiger.com"
+        }
+    ]
+}
