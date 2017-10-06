@@ -34,4 +34,11 @@ class TitleCaseMakerTest extends TestCase
         $exceptions = "and";
         $this->assertEquals("War and Peace", $this->titleCaseMaker->makeTitleCase($title, $exceptions));
     }
+
+    public function testMultipleExceptedWords()
+    {
+        $title = "the lord of the rings";
+        $exceptions = "the of";
+        $this->assertEquals("The Lord of the Rings", $this->titleCaseMaker->makeTitleCase($title, $exceptions));
+    }
 }
