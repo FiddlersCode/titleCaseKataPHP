@@ -9,15 +9,29 @@ class TitleCaseMakerTest extends TestCase
     {
         $this->titleCaseMaker = new TitleCaseMaker();
     }
+
     public function testAllLowercaseString()
     {
-        $string = "cold comfort farm";
-        $this->assertEquals("Cold Comfort Farm", $this->titleCaseMaker->makeTitleCase($string));
+        $title = "cold comfort farm";
+        $this->assertEquals("Cold Comfort Farm", $this->titleCaseMaker->makeTitleCase($title));
     }
 
     public function testMixedCasetring()
     {
-        $string = "THE MAN who MIStook hIS Wife for A HaT";
-        $this->assertEquals("The Man Who Mistook His Wife For A Hat", $this->titleCaseMaker->makeTitleCase($string));
+        $title = "THE MAN who MIStook hIS Wife for A HaT";
+        $this->assertEquals("The Man Who Mistook His Wife For A Hat", $this->titleCaseMaker->makeTitleCase($title));
+    }
+
+    public function testAllUppercaseString()
+    {
+        $title = "MADAME BOVARY";
+        $this->assertEquals("Madame Bovary", $this->titleCaseMaker->makeTitleCase($title));
+    }
+
+    public function testOneExceptedWord()
+    {
+        $title = "war and peace";
+        $exceptions = "and";
+        $this->assertEquals("War and Peace", $this->titleCaseMaker->makeTitleCase($title, $exceptions));
     }
 }

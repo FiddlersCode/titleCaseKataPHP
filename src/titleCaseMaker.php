@@ -2,8 +2,9 @@
 
 class TitleCaseMaker {
 
-    public function makeTitleCase($string)
+    public function makeTitleCase($title, $exceptions='')
     {
-        return ucwords(strtolower($string));
+        $titleAllUpper = ucwords(strtolower($title));
+        return str_replace(ucfirst($exceptions), lcfirst($exceptions), $titleAllUpper);
     }
 }
