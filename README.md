@@ -21,11 +21,11 @@ The function may receive an optional list of exceptions.
 - the exceptions should not be capitalised unless they start the title
 
 
-###Arguments
+### Arguments
 
 - First argument (required): the original string to be converted.
 - Second argument (optional): space-delimited list of excepted words that must always be lowercase unless one is the first word in the string. 
-###Examples
+### Examples
 
 - ("a clash of KINGS", "a an the of") should return "A Clash of Kings"
 - ("THE WIND IN THE WILLOWS", "The In") should return "The Wind in the Willows"
