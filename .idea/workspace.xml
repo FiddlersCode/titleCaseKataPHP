@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db38c3c5-88ca-41d9-b87e-d8b47c964659" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/titleCaseMaker.php" afterPath="$PROJECT_DIR$/src/titleCaseMaker.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/titleCaseMakerTest.php" afterPath="$PROJECT_DIR$/tests/titleCaseMakerTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,19 +15,6 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="210">
-                    <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="titleCaseMaker.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/titleCaseMaker.php">
               <provider selected="true" editor-type-id="text-editor">
@@ -46,8 +32,8 @@
           <file leaf-file-name="titleCaseMakerTest.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/titleCaseMakerTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+                <state relative-caret-position="179">
+                  <caret line="47" column="94" lean-forward="false" selection-start-line="47" selection-start-column="94" selection-end-line="47" selection-end-column="94" />
                   <folding />
                 </state>
               </provider>
@@ -73,8 +59,8 @@
       <list>
         <option value="$PROJECT_DIR$/tests/titleCaseTest.php" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/tests/titleCaseMakerTest.php" />
         <option value="$PROJECT_DIR$/src/titleCaseMaker.php" />
+        <option value="$PROJECT_DIR$/tests/titleCaseMakerTest.php" />
       </list>
     </option>
   </component>
@@ -165,12 +151,12 @@
       <workItem from="1507277853998" duration="2420000" />
       <workItem from="1507280894966" duration="152000" />
       <workItem from="1507283709116" duration="1110000" />
-      <workItem from="1507298062034" duration="3717000" />
+      <workItem from="1507298062034" duration="4018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7399000" />
+    <option name="totallyTimeSpent" value="7700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -279,22 +265,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/titleCaseMakerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="47" column="94" lean-forward="false" selection-start-line="47" selection-start-column="94" selection-end-line="47" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="210">
-            <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/titleCaseMakerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>

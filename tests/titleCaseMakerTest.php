@@ -41,4 +41,10 @@ class TitleCaseMakerTest extends TestCase
         $exceptions = "the of";
         $this->assertEquals("The Lord of the Rings", $this->titleCaseMaker->makeTitleCase($title, $exceptions));
     }
+
+    public function testExceptedWordIsFirst()
+    {
+        $title = "the quick brown fox";
+        $this->assertEquals("The Quick Brown Fox", $this->titleCaseMaker->makeTitleCase($title));
+    }
 }
